@@ -1,0 +1,236 @@
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+
+
+section{
+    
+}
+
+section:nth-child(even){
+    background: #fff;
+}
+
+.sub-heading{
+    text-align: center;
+    color: var(--green);
+    font-size: 2.5rem;
+    padding-top: 1rem;
+}
+
+.heading{
+    text-align: center;
+    color: var(--black);
+    font-size: 3rem;
+    padding-top: 2rem;
+    text-transform: uppercase;
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #fff;
+    padding: 1rem 7%;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    
+}
+
+header h1{
+    text-align: center;
+    font-style: bold;
+    color: green;
+    font-size: 5rem;
+}
+
+header h3{
+    
+    color: green;
+    font-size: 2.5rem;
+}
+
+header .logo{
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+}
+header .navbar a{
+    font-size: 3.7rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    color: red;
+    text-decoration: none;
+    font-style: bold;
+}
+
+/*header .navbar a.active,
+header .navbar a:hover{
+    color: rgb(209, 12, 12);
+    background: var(--green)
+
+}*/
+
+.main-body{
+    padding-top: 10rem;
+    text-align: left;
+    font-size: 20px;
+    
+}
+
+.main-body dl{
+    padding-top: 10rem;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+.main-body .box{
+    padding: 2rem;
+    box-shadow: var(--box-shadow);    
+    border-radius: .5rem;
+    position: relative;
+}
+.review .box-container .box .animal{
+    
+    gap: 1.5rem;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.main-body .box-container .box .animal img{
+    height: 20%;
+    width: 20%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.main-body .box-container .box .animal h3{
+    color: var(--black);
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}
+
+.main-body .box-container .box .animal i{
+    font-size: 1.3rem;
+    color: var(--green);
+
+}
+
+.main-body .box-container .box p{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: var(--light-color);
+}
+
+.gallery{
+    margin-top: 8rem;   
+    color: green;
+    
+}
+
+.gallery .box-container{
+    display: grid;
+    grid-template-columns: 500px repeat(auto-fill, 500px) 500px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-between;
+    gap: .7rem;
+    
+}
+
+.gallery .box-container .box{
+    background: #fff;
+    border: .1rem solid rgb(245, 244, 244);
+    border-radius: 1.5rem;
+    box-shadow: 10px 10px 5px #f3f1f1;    
+    width: 100%;
+    
+}
+
+.gallery .box-container .box p{
+    font-size: 5rem;
+    text-align: center;
+    
+}
+.gallery .box-container .box .image{
+    
+    width: 100%;
+    padding: 1.5rem;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.gallery .box-container .box .image img{
+    height: 50%;
+    width: 72%;
+    border-radius: .5rem;
+    object-fit: cover;
+    align-items: center;
+    
+}
+
+.gallery .box-container .box .image a{
+    align-items: center;
+    width: 50%;
+}
+
+
+
+.footer{
+    width: 100%;
+    
+}
+
+.footer .footer-container{
+    display: block;   
+    background: #eee;
+    color: black;
+    font-size: 15px;
+        
+}
+
+.footer .footer-container .box h3{
+    padding: .5rem 0;
+    font-size: 2.5rem;
+    color: var(--black);
+    text-align: center;
+    
+}
+.footer .footer-container .box a{
+    display: block;
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+}
+
+.footer .footer-container .box a:hover{
+    color: var(--black);
+    text-decoration: underline;
+}
+
+.footer .credit{
+    text-align: center;
+    border-top: .1rem solid rgba(0,0,0,.2);
+    font-size: 2.5rem;
+    color: var(--black);
+    padding: .5rem;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.footer .credit span{
+    color: var(--light-color);
+    font-weight: bold;
+
+}
